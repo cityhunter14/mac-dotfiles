@@ -1,0 +1,24 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"Block Cursor Everywhere",
+		"BracketHighlighter",
+		"ConvertToUTF8",
+		"FindKeyConflicts",
+		"HTMLBeautify",
+		"Jade",
+		"JsFormat",
+		"Nettuts+ Fetch",
+		"Package Control",
+		"SideBarEnhancements",
+		"Surround",
+		"Theme - Soda",
+		"Vintage Surround",
+		"Vintageous"
+	]
+}
