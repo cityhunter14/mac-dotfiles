@@ -14,4 +14,4 @@
 配置文件list需要手动写到list文件中。
 文件名规则为：软件名+Conf.list 例：vimConf.list
 
-
+注意：.zshrc中的ZSH环境变量的值可能是绝对路径，修改成相对路径以免在新系统中找不到oh-my-zsh的路径。
