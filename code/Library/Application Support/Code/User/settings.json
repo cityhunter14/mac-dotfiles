@@ -4,6 +4,9 @@
     "editor.renderWhitespace": "all",
     "editor.minimap.enabled": false,
     "vim.hlsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.enableNeovim": true,
+    "vim.neovimPath": "/usr/local/bin/nvim",
     "vim.disableAnnoyingNeovimMessage": true,
     "vim.easymotion": true,
     "vim.statusBarColorControl": true,
@@ -67,5 +70,9 @@
         "statusBar.noFolderBackground": "#005f5f",
         "statusBar.debuggingBackground": "#005f5f"
     },
-    "workbench.activityBar.visible": true
+    "workbench.activityBar.visible": true,
+    "files.associations": {
+        "*.tpl": "html"
+    }
 }
+

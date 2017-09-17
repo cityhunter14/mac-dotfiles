@@ -116,6 +116,8 @@ set novisualbell
 set t_vb=
 set tm=500
 
+" Show line number
+set number
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Colors and Fonts
