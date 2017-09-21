@@ -1,0 +1,17 @@
+[Unit]  
+Description=NodeBB forum Documentation=https://docs.nodebb.org
+After=network.target
+  
+[Service]  
+Type=forking
+PIDFile=/home/cityhunter/NodeBB/pidfile
+ExecStart=/home/cityhunter/NodeBB/nodebb start
+ExecReload=/bin/kill -s HUP $MAINPID
+ExecStop=/bin/kill -s TERM $MAINPID
+Restart=on-failure
+WorkingDirectory=/home/cityhunter/NodeBB
+StandardError=syslog
+SyslogIdentifier=nodebb
+  
+[Install]  
+WantedBy=multi-user.target  
