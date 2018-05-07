@@ -73,6 +73,7 @@
     "workbench.activityBar.visible": true,
     "files.associations": {
         "*.tpl": "html"
-    }
+    },
+    "python.pythonPath": "/Users/cityhunter14/.pyenv/versions/3.6.5/bin/python"
 }
 
