@@ -43,5 +43,8 @@
     "vue-html": "html",
     "vue": "html"
   },
-  "html.format.enable": false
+  "html.format.enable": false,
+  "window.zoomLevel": 0,
+  "breadcrumbs.enabled": true,
+  "diffEditor.renderSideBySide": false
 }
