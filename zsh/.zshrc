@@ -89,6 +89,13 @@ export LC_CTYPE=zh_CN.UTF-8
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+#init pyenv
 if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
 fi
+
+#set yarn's global bin file into $PATH
+if [ "$(uname -s)" = "Linux" ] && command -v yarn 1>/dev/null 2>&1; then
+    export PATH="$PATH:`yarn global bin`:$HOME/.config/yarn/global/node_modules/.bin"
+fi
+
